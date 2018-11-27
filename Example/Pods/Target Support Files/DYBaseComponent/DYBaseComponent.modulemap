@@ -1,0 +1,6 @@
+framework module DYBaseComponent {
+  umbrella header "DYBaseComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DYBaseComponent (0.1.0)
+
+DEPENDENCIES:
+  - DYBaseComponent (from `../`)
+
+EXTERNAL SOURCES:
+  DYBaseComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DYBaseComponent: 95e9a6bc1a9b86232b5717cb597b5c82d1436433
+
+PODFILE CHECKSUM: 4c6cc5872a5c15cd8b860c53dba4d6b567d8d366
+
+COCOAPODS: 1.5.3

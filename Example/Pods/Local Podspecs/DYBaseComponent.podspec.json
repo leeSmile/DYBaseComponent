@@ -1,0 +1,22 @@
+{
+  "name": "DYBaseComponent",
+  "version": "0.1.0",
+  "summary": "DYBaseComponent",
+  "description": "DYBaseComponent",
+  "homepage": "https://github.com/leeSmile/DYBaseComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "244645877@qq.com": "244645877@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/leeSmile/DYBaseComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DYBaseComponent/Classes/**/*"
+}
