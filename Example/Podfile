@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DYBaseComponent_Example' do
+  pod 'DYBaseComponent', :path => '../'
+
+  target 'DYBaseComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
