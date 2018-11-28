@@ -35,37 +35,37 @@ Pod::Spec.new do |s|
     # 子组件 NSDate
     s.subspec 'NSDate' do |ss|
     ss.source_files = 'DYBaseComponent/Classes/Category/NSDate'
-    ss.public_header_files = 'DYBaseComponent/Category/Classes/NSDate/*.h'
+    ss.public_header_files = 'DYBaseComponent/Classes/Category/Classes/NSDate/*.h'
     end
     # 子组件 NSString
     s.subspec 'NSString' do |ss|
     ss.source_files = 'DYBaseComponent/Classes/Category/NSString'
-    ss.public_header_files = 'DYBaseComponent/Category/Classes/NSString/*.h'
+    ss.public_header_files = 'DYBaseComponent/Classes/Category/Classes/NSString/*.h'
     end
     # 子组件 UIButton
     s.subspec 'UIButton' do |ss|
     ss.source_files = 'DYBaseComponent/Classes/Category/UIButton'
-    ss.public_header_files = 'DYBaseComponent/Category/Classes/UIButton/*.h'
+    ss.public_header_files = 'DYBaseComponent/Classes/Category/Classes/UIButton/*.h'
     end
     # 子组件 UIImage
     s.subspec 'UIImage' do |ss|
     ss.source_files = 'DYBaseComponent/Classes/Category/UIImage'
-    ss.public_header_files = 'DYBaseComponent/Category/Classes/UIImage/*.h'
+    ss.public_header_files = 'DYBaseComponent/Classes/Category/Classes/UIImage/*.h'
     end
     # 子组件 UILabel
     s.subspec 'UILabel' do |ss|
     ss.source_files = 'DYBaseComponent/Classes/Category/UILabel'
-    ss.public_header_files = 'DYBaseComponent/Category/Classes/UILabel/*.h'
+    ss.public_header_files = 'DYBaseComponent/Classes/Category/Classes/UILabel/*.h'
     end
     # 子组件 UITabBar
     s.subspec 'NSDate' do |ss|
     ss.source_files = 'DYBaseComponent/Classes/Category/UITabBar'
-    ss.public_header_files = 'DYBaseComponent/Category/Classes/UITabBar/*.h'
+    ss.public_header_files = 'DYBaseComponent/Classes/Category/Classes/UITabBar/*.h'
     end
     # 子组件 UIView
     s.subspec 'UIView' do |ss|
     ss.source_files = 'DYBaseComponent/Classes/Category/UIView'
-    ss.public_header_files = 'DYBaseComponent/Category/Classes/UIView/*.h'
+    ss.public_header_files = 'DYBaseComponent/Classes/Category/Classes/UIView/*.h'
     end
 
 
