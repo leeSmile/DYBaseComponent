@@ -1,6 +1,6 @@
 {
   "name": "DYBaseComponent",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "summary": "DYBaseComponent",
   "description": "DYBaseComponent",
   "homepage": "https://github.com/leeSmile/DYBaseComponent",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/leeSmile/DYBaseComponent.git",
-    "tag": "0.4.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "8.0"

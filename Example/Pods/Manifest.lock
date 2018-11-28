@@ -1,5 +1,5 @@
 PODS:
-  - DYBaseComponent (0.4.0)
+  - DYBaseComponent (0.5.0)
 
 DEPENDENCIES:
   - DYBaseComponent (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DYBaseComponent: 16391d6951ee37e50c2fed02b9b07d2201c04b00
+  DYBaseComponent: 14ae6db3b8d4edd6cd0f7ee6e013194d8565695a
 
 PODFILE CHECKSUM: 4c6cc5872a5c15cd8b860c53dba4d6b567d8d366
 
