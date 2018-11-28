@@ -1,7 +1,18 @@
 PODS:
-  - DYBaseComponent (0.6.0):
-    - DYBaseComponent/NSDate (= 0.6.0)
-  - DYBaseComponent/NSDate (0.6.0)
+  - DYBaseComponent (0.7.0):
+    - DYBaseComponent/NSDate (= 0.7.0)
+    - DYBaseComponent/NSDate (= 0.7.0)
+    - DYBaseComponent/NSString (= 0.7.0)
+    - DYBaseComponent/UIButton (= 0.7.0)
+    - DYBaseComponent/UIImage (= 0.7.0)
+    - DYBaseComponent/UILabel (= 0.7.0)
+    - DYBaseComponent/UIView (= 0.7.0)
+  - DYBaseComponent/NSDate (0.7.0)
+  - DYBaseComponent/NSString (0.7.0)
+  - DYBaseComponent/UIButton (0.7.0)
+  - DYBaseComponent/UIImage (0.7.0)
+  - DYBaseComponent/UILabel (0.7.0)
+  - DYBaseComponent/UIView (0.7.0)
 
 DEPENDENCIES:
   - DYBaseComponent (from `../`)
@@ -11,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DYBaseComponent: 36cc4fa627831d6ebacea2822e4ed1d9932bce57
+  DYBaseComponent: 251d72ddcead5eeb15f1aadb6da615f42596b122
 
 PODFILE CHECKSUM: 4c6cc5872a5c15cd8b860c53dba4d6b567d8d366
 

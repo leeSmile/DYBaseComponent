@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYBaseComponent'
-  s.version          = '0.7.0'
+  s.version          = '0.8.0'
   s.summary          = ' DYBaseComponent '
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,42 @@ Pod::Spec.new do |s|
 
   s.source_files = 'DYBaseComponent/Classes/**/*'
 
-    # 子组件
+    # 子组件 NSDate
     s.subspec 'NSDate' do |ss|
-    ss.source_files = 'DYBaseComponent/Classes/NSDate/**/*'
-    ss.public_header_files = 'DYBaseComponent/Classes/NSDate/**/*.h'
+    ss.source_files = 'DYBaseComponent/Classes/Category/NSDate/**/*'
+    ss.public_header_files = 'DYBaseComponent/Category/Classes/NSDate/**/*.h'
     end
+    # 子组件 NSString
+    s.subspec 'NSString' do |ss|
+    ss.source_files = 'DYBaseComponent/Classes/Category/NSString/**/*'
+    ss.public_header_files = 'DYBaseComponent/Category/Classes/NSString/**/*.h'
+    end
+    # 子组件 UIButton
+    s.subspec 'UIButton' do |ss|
+    ss.source_files = 'DYBaseComponent/Classes/Category/UIButton/**/*'
+    ss.public_header_files = 'DYBaseComponent/Category/Classes/UIButton/**/*.h'
+    end
+    # 子组件 UIImage
+    s.subspec 'UIImage' do |ss|
+    ss.source_files = 'DYBaseComponent/Classes/Category/UIImage/**/*'
+    ss.public_header_files = 'DYBaseComponent/Category/Classes/UIImage/**/*.h'
+    end
+    # 子组件 UILabel
+    s.subspec 'UILabel' do |ss|
+    ss.source_files = 'DYBaseComponent/Classes/Category/UILabel/**/*'
+    ss.public_header_files = 'DYBaseComponent/Category/Classes/UILabel/**/*.h'
+    end
+    # 子组件 UITabBar
+    s.subspec 'NSDate' do |ss|
+    ss.source_files = 'DYBaseComponent/Classes/Category/UITabBar/**/*'
+    ss.public_header_files = 'DYBaseComponent/Category/Classes/UITabBar/**/*.h'
+    end
+    # 子组件 UIView
+    s.subspec 'UIView' do |ss|
+    ss.source_files = 'DYBaseComponent/Classes/Category/UIView/**/*'
+    ss.public_header_files = 'DYBaseComponent/Category/Classes/UIView/**/*.h'
+    end
+
 
   # s.resource_bundles = {
   #   'DYBaseComponent' => ['DYBaseComponent/Assets/*.png']

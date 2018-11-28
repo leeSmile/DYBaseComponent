@@ -1,6 +1,6 @@
 {
   "name": "DYBaseComponent",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "summary": "DYBaseComponent",
   "description": "DYBaseComponent contains  Common components",
   "homepage": "https://github.com/leeSmile/DYBaseComponent",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/leeSmile/DYBaseComponent.git",
-    "tag": "0.6.0"
+    "tag": "0.7.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,8 +22,38 @@
   "subspecs": [
     {
       "name": "NSDate",
-      "source_files": "DYBaseComponent/Classes/NSDate/**/*",
-      "public_header_files": "DYBaseComponent/Classes/NSDate/**/*.h"
+      "source_files": "DYBaseComponent/Classes/Category/NSDate/**/*",
+      "public_header_files": "DYBaseComponent/Category/Classes/NSDate/**/*.h"
+    },
+    {
+      "name": "NSString",
+      "source_files": "DYBaseComponent/Classes/Category/NSString/**/*",
+      "public_header_files": "DYBaseComponent/Category/Classes/NSString/**/*.h"
+    },
+    {
+      "name": "UIButton",
+      "source_files": "DYBaseComponent/Classes/Category/UIButton/**/*",
+      "public_header_files": "DYBaseComponent/Category/Classes/UIButton/**/*.h"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "DYBaseComponent/Classes/Category/UIImage/**/*",
+      "public_header_files": "DYBaseComponent/Category/Classes/UIImage/**/*.h"
+    },
+    {
+      "name": "UILabel",
+      "source_files": "DYBaseComponent/Classes/Category/UILabel/**/*",
+      "public_header_files": "DYBaseComponent/Category/Classes/UILabel/**/*.h"
+    },
+    {
+      "name": "NSDate",
+      "source_files": "DYBaseComponent/Classes/Category/UITabBar/**/*",
+      "public_header_files": "DYBaseComponent/Category/Classes/UITabBar/**/*.h"
+    },
+    {
+      "name": "UIView",
+      "source_files": "DYBaseComponent/Classes/Category/UIView/**/*",
+      "public_header_files": "DYBaseComponent/Category/Classes/UIView/**/*.h"
     }
   ]
 }

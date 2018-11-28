@@ -28,6 +28,17 @@
 #import "NSData+MD5Digest.h"
 #import "NSDate+Common.h"
 #import "NSDate+Utils.h"
+#import "NSString+DYIconFontMapper.h"
+#import "UIButton+ImageTitleStyle.h"
+#import "UIButton+QG.h"
+#import "UIImage+Capture.h"
+#import "UIImage+fixOrientation.h"
+#import "UILabel+LabelHeightAndWidth.h"
+#import "UILabel+QG.h"
+#import "UIView+AutoSize.h"
+#import "UIView+Badge.h"
+#import "UIView+DYCorner.h"
+#import "UIView+QG.h"
 
 FOUNDATION_EXPORT double DYBaseComponentVersionNumber;
 FOUNDATION_EXPORT const unsigned char DYBaseComponentVersionString[];
