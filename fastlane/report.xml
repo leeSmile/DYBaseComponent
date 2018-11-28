@@ -5,52 +5,52 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: cocoapods" time="2.050821">
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="2.2836">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: version_bump_podspec" time="0.002729">
+      <testcase classname="fastlane.lanes" name="1: version_bump_podspec" time="0.002705">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_add" time="0.020667">
+      <testcase classname="fastlane.lanes" name="2: git_add" time="0.021991">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: git_commit" time="0.051699">
+      <testcase classname="fastlane.lanes" name="3: git_commit" time="0.054413">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: push_to_git_remote" time="5.341797">
+      <testcase classname="fastlane.lanes" name="4: push_to_git_remote" time="4.149759">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: git_tag_exists" time="0.013471">
+      <testcase classname="fastlane.lanes" name="5: git_tag_exists" time="0.013877">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.019098">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.018595">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="4.694161">
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="4.471571">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="8.230599">
+      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="8.457189">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="9: pod_push" time="17.179236">
+      <testcase classname="fastlane.lanes" name="9: pod_push" time="17.177469">
         
       </testcase>
     

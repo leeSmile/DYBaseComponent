@@ -1,5 +1,7 @@
 PODS:
-  - DYBaseComponent (0.5.0)
+  - DYBaseComponent (0.6.0):
+    - DYBaseComponent/NSDate (= 0.6.0)
+  - DYBaseComponent/NSDate (0.6.0)
 
 DEPENDENCIES:
   - DYBaseComponent (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DYBaseComponent: 14ae6db3b8d4edd6cd0f7ee6e013194d8565695a
+  DYBaseComponent: 36cc4fa627831d6ebacea2822e4ed1d9932bce57
 
 PODFILE CHECKSUM: 4c6cc5872a5c15cd8b860c53dba4d6b567d8d366
 

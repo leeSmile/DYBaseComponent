@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYBaseComponent'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = ' DYBaseComponent '
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-DYBaseComponent
+  DYBaseComponent contains  Common components
                        DESC
 
   s.homepage         = 'https://github.com/leeSmile/DYBaseComponent'
@@ -31,7 +31,13 @@ DYBaseComponent
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DYBaseComponent/Classes/**/*'
-  
+
+    # 子组件
+    s.subspec 'NSDate' do |ss|
+    ss.source_files = 'DYBaseComponent/Classes/NSDate/**/*'
+    ss.public_header_files = 'DYBaseComponent/Classes/NSDate/**/*.h'
+    end
+
   # s.resource_bundles = {
   #   'DYBaseComponent' => ['DYBaseComponent/Assets/*.png']
   # }
