@@ -23,37 +23,37 @@
     {
       "name": "NSDate",
       "source_files": "DYBaseComponent/Classes/Category/NSDate",
-      "public_header_files": "DYBaseComponent/Classes/Category/Classes/NSDate/*.h"
+      "public_header_files": "DYBaseComponent/Classes/Category/NSDate/*.h"
     },
     {
       "name": "NSString",
       "source_files": "DYBaseComponent/Classes/Category/NSString",
-      "public_header_files": "DYBaseComponent/Classes/Category/Classes/NSString/*.h"
+      "public_header_files": "DYBaseComponent/Classes/Category/NSString/*.h"
     },
     {
       "name": "UIButton",
       "source_files": "DYBaseComponent/Classes/Category/UIButton",
-      "public_header_files": "DYBaseComponent/Classes/Category/Classes/UIButton/*.h"
+      "public_header_files": "DYBaseComponent/Classes/Category/UIButton/*.h"
     },
     {
       "name": "UIImage",
       "source_files": "DYBaseComponent/Classes/Category/UIImage",
-      "public_header_files": "DYBaseComponent/Classes/Category/Classes/UIImage/*.h"
+      "public_header_files": "DYBaseComponent/Classes/Category/UIImage/*.h"
     },
     {
       "name": "UILabel",
       "source_files": "DYBaseComponent/Classes/Category/UILabel",
-      "public_header_files": "DYBaseComponent/Classes/Category/Classes/UILabel/*.h"
+      "public_header_files": "DYBaseComponent/Classes/Category/UILabel/*.h"
     },
     {
       "name": "NSDate",
       "source_files": "DYBaseComponent/Classes/Category/UITabBar",
-      "public_header_files": "DYBaseComponent/Classes/Category/Classes/UITabBar/*.h"
+      "public_header_files": "DYBaseComponent/Classes/Category/UITabBar/*.h"
     },
     {
       "name": "UIView",
       "source_files": "DYBaseComponent/Classes/Category/UIView",
-      "public_header_files": "DYBaseComponent/Classes/Category/Classes/UIView/*.h"
+      "public_header_files": "DYBaseComponent/Classes/Category/UIView/*.h"
     }
   ]
 }
